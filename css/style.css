@@ -15,15 +15,16 @@
 	margin: 0 auto;
 	margin-bottom: -80px;
 	min-height: 800px;
-	background: url('../img/block/pexels.jpg');
+	background: url('../img/block/pexels.jpg') no-repeat;
+	
 }
 
-.block__header:hover::before{
+.block__header::before{
 	content: "";
 	position: absolute;
 	width: 1440px;
 	height: 800px;
-	background: #15aca48a;
+	background: url('../img/block/duotone.jpg') no-repeat;
 }
 
 .block__conteiner {
@@ -43,7 +44,7 @@
 
 .circles {
 	position: absolute;
-	top: -110px;
+	top: -107px;
 	right: -75px;
 	max-width: 100%;
 }
