@@ -1,0 +1,98 @@
+@import "null.css";
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+.wrapper {
+	overflow: hidden;
+}
+.block {
+	margin: 0 auto;
+	max-width: 1440px;
+}
+
+.block__header{
+	position: relative;
+	margin: 0 auto;
+	margin-bottom: -80px;
+	min-height: 800px;
+	background: url('../img/block/pexels.jpg');
+}
+
+.block__header:hover::before{
+	content: "";
+	position: absolute;
+	width: 1440px;
+	height: 800px;
+	background: #15aca48a;
+}
+
+.block__conteiner {
+	margin: 0 auto;
+}
+
+.block__content {
+	position: relative;
+	top: - 20px;
+	margin: 0 auto;
+	max-width: 1020px;
+	padding: 100px 87px 354px 87px;
+	background:  #5D62B5 url('../img/block__content/Blob.png')0 253px  no-repeat;
+	border-radius: 40px;
+	margin-bottom: 80px;
+}
+
+.circles {
+	position: absolute;
+	top: -110px;
+	right: -80px;
+	max-width: 100%;
+}
+.circles__picture {
+	max-width: 100%;
+}
+
+.text {
+	margin: 0 auto;
+	max-width: max-content;
+	font-family: "Roboto";
+	font-style: normal;
+	margin-bottom: 54px;
+}
+
+.text__we {
+	padding-left: 33px;
+	max-width: 436px;
+	font-weight: 700;
+	font-size: 12px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	background: url('../img/text__we/logo.svg')0 -7px no-repeat;
+	color: #F5F5F5;
+	margin-bottom: 33px;
+}
+.text__nemo {
+	max-width: 583px;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #FFFFFF;
+	margin-bottom: 36px;
+}
+.text__paragraf {
+	max-width: 846px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #F5F5F5;
+}
+.fice-dog {
+	position: absolute;
+	border-radius: 40px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.507);
+}
+
+.fice-dog__picture{
+	max-width: 100%;
+	border-radius: 40px;
+}
